@@ -24,7 +24,7 @@ body {
 .header-container {
   /* background-color: rgba(0, 0, 0, 0.95); */
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
-    url(purple-gradient-background.jpg);
+    url(img/purple-gradient-background.jpg);
   /* position: relative; */
   width: 100vw;
   height: 100vh;
