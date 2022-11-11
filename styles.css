@@ -52,11 +52,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  gap: 64px;
+  gap: 6.4rem;
   /* justify-content: center; */
 }
 
 .title {
+  margin-top: 16.5vh;
   font-size: 6.8rem;
   /* text-decoration: underline; */
 }
@@ -97,9 +98,40 @@ body {
   text-decoration: underline;
 } */
 
-@media (max-height: 400px) {
-  .header-content {
-    justify-content: space-between;
-    gap: 0;
-  }
+/* HEADER NAV */
+
+.header-nav {
+  width: 80vw;
+  position: absolute;
+  /* background-color: #fff; */
+  top: 5vh;
+  display: flex;
+  gap: 4rem;
+  justify-content: end;
+}
+
+.header-nav a:last-child {
+  padding-right: 13.5vw;
+}
+
+.header-nav-item {
+  font-size: 2.2rem;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 3vh;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header-nav-item:hover {
+  text-decoration: underline;
+}
+
+.header-nav-img {
+  margin-top: -3.5vh;
+  display: inline-block;
+  width: 16rem;
+  height: 16rem;
+  margin-right: auto;
+  margin-left: -2.6vw;
 }
